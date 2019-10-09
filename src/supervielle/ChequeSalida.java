@@ -1,9 +1,12 @@
 package supervielle;
 
+import java.util.Vector;
+
 public class ChequeSalida {
 	
 	protected Integer id;
 	protected CodigoDescripcion estado;
+	protected Vector<CodigoDescripcion> regla;
 	
 	public Integer getId() {
 		return id;
@@ -22,5 +25,11 @@ public class ChequeSalida {
 		super();
 		this.id = id;
 		this.estado = estado;
-	}	
+	}
+	public Vector<CodigoDescripcion> getRegla() {
+		return regla;
+	}
+	public void setRegla(Vector<CodigoDescripcion> regla) {
+		this.regla = regla;
+	}
 }
