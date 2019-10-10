@@ -6,27 +6,24 @@ import java.util.Vector;
 public class Resultado {
 	
 	protected Vector<ChequeSalida> cheque;
-	protected CodigoDescripcion estado;
-	protected Vector<Control> control;
-	
+	protected CodigoDescripcion semaforo;
+	protected Vector<Control> regla;
 	public Vector<ChequeSalida> getCheque() {
 		return cheque;
 	}
 	public void setCheque(Vector<ChequeSalida> cheque) {
 		this.cheque = cheque;
 	}
-
-	public CodigoDescripcion getEstado() {
-		return estado;
+	public CodigoDescripcion getSemaforo() {
+		return semaforo;
 	}
-	public void setEstado(CodigoDescripcion estado) {
-		this.estado = estado;
+	public void setSemaforo(CodigoDescripcion semaforo) {
+		this.semaforo = semaforo;
 	}
-	public Vector<Control> getControl() {
-		return control;
+	public Vector<Control> getRegla() {
+		return regla;
 	}
-	public void setControl(Vector<Control> control) {
-		this.control = control;
-	}	
-	
+	public void setRegla(Vector<Control> regla) {
+		this.regla = regla;
+	}
 }
