@@ -15,6 +15,8 @@ public class Cedente {
 	protected Vector<Cheque> cheque;
 	protected CodigoDescripcion segmento;
 	protected CodigoDescripcion cartera;
+	protected CodigoDescripcion actividad;
+	protected CodigoDescripcion canal;
 	
 	
 	public Date getFechaPlafond() {
@@ -66,4 +68,17 @@ public class Cedente {
 	public void setSaldoPlafond(Double saldoPlafond) {
 		this.saldoPlafond = saldoPlafond;
 	}
+	public CodigoDescripcion getActividad() {
+		return actividad;
+	}
+	public void setActividad(CodigoDescripcion actividad) {
+		this.actividad = actividad;
+	}
+	public CodigoDescripcion getCanal() {
+		return canal;
+	}
+	public void setCanal(CodigoDescripcion canal) {
+		this.canal = canal;
+	}	
+	
 }
