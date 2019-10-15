@@ -3,7 +3,7 @@ package supervielle;
 public class Control {
 	
 	protected String nombre;
-	protected Integer estado;
+	protected Integer codigo;
 	protected String descripcion;
 	protected Integer id;
 	
@@ -12,12 +12,12 @@ public class Control {
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}	
+	public Integer getCodigo() {
+		return codigo;
 	}
-	public Integer getEstado() {
-		return estado;
-	}
-	public void setEstado(Integer estado) {
-		this.estado = estado;
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
 	}
 	public String getDescripcion() {
 		return descripcion;

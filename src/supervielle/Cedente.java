@@ -7,7 +7,7 @@ import java.util.Vector;
 
 public class Cedente {
 	
-	protected Date fechaPlafond;
+	protected Date fechaLinea;
 	protected Double limiteLinea;
 	protected Double saldoLinea;
 	protected Double limitePlafond;
@@ -16,14 +16,13 @@ public class Cedente {
 	protected CodigoDescripcion segmento;
 	protected CodigoDescripcion cartera;
 	protected CodigoDescripcion actividad;
-	protected CodigoDescripcion canal;
+	protected CodigoDescripcion canal;		
 	
-	
-	public Date getFechaPlafond() {
-		return fechaPlafond;
+	public Date getFechaLinea() {
+		return fechaLinea;
 	}
-	public void setFechaPlafond(Date fechaPlafond) {
-		this.fechaPlafond = fechaPlafond;
+	public void setFechaLinea(Date fechaLinea) {
+		this.fechaLinea = fechaLinea;
 	}
 	public Double getLimiteLinea() {
 		return limiteLinea;
