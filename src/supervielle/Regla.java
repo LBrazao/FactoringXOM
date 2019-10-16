@@ -1,6 +1,6 @@
 package supervielle;
 
-public class Control {
+public class Regla {
 	
 	protected String nombre;
 	protected Integer codigo;
