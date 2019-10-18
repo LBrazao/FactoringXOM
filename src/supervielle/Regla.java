@@ -1,12 +1,22 @@
 package supervielle;
 
+import java.util.Vector;
+
 public class Regla {
 	
 	protected String nombre;
 	protected Integer codigo;
 	protected String descripcion;
 	protected Integer id;
+	protected Vector<Detalle> detalle;
 	
+
+	public Vector<Detalle> getDetalle() {
+		return detalle;
+	}
+	public void setDetalle(Vector<Detalle> detalle) {
+		this.detalle = detalle;
+	}
 	public String getNombre() {
 		return nombre;
 	}
