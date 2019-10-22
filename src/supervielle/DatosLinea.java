@@ -3,27 +3,32 @@ package supervielle;
 import java.util.Date;
 
 public class DatosLinea {
-	protected Date fechaLinea;
-	protected Double limiteLinea;
-	protected Double utilizadoLinea;
-	
-	public Date getFechaLinea() {
-		return fechaLinea;
+	protected Date fechaVencimiento;
+	protected Double limite;
+	protected Double utilizado;
+
+	public Date getFechaVencimiento() {
+		return fechaVencimiento;
 	}
-	public void setFechaLinea(Date fechaLinea) {
-		this.fechaLinea = fechaLinea;
+
+	public void setFechaVencimiento(Date fechaVencimiento) {
+		this.fechaVencimiento = fechaVencimiento;
 	}
-	public Double getLimiteLinea() {
-		return limiteLinea;
+
+	public Double getLimite() {
+		return limite;
 	}
-	public void setLimiteLinea(Double limiteLinea) {
-		this.limiteLinea = limiteLinea;
+
+	public void setLimite(Double limite) {
+		this.limite = limite;
 	}
-	public Double getUtilizadoLinea() {
-		return utilizadoLinea;
+
+	public Double getUtilizado() {
+		return utilizado;
 	}
-	public void setUtilizadoLinea(Double utilizadoLinea) {
-		this.utilizadoLinea = utilizadoLinea;
-	}	
-	
+
+	public void setUtilizado(Double utilizado) {
+		this.utilizado = utilizado;
+	}
+
 }
