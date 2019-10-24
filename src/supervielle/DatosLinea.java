@@ -5,30 +5,31 @@ import java.util.Date;
 public class DatosLinea {
 	protected Date fechaVencimiento;
 	protected Double limite;
-	protected Double utilizado;
-
+	protected Double utilizadoBt;
+	protected Double utilizadoHb;
 	public Date getFechaVencimiento() {
 		return fechaVencimiento;
 	}
-
 	public void setFechaVencimiento(Date fechaVencimiento) {
 		this.fechaVencimiento = fechaVencimiento;
 	}
-
 	public Double getLimite() {
 		return limite;
 	}
-
 	public void setLimite(Double limite) {
 		this.limite = limite;
 	}
-
-	public Double getUtilizado() {
-		return utilizado;
+	public Double getUtilizadoBt() {
+		return utilizadoBt;
 	}
-
-	public void setUtilizado(Double utilizado) {
-		this.utilizado = utilizado;
+	public void setUtilizadoBt(Double utilizadoBt) {
+		this.utilizadoBt = utilizadoBt;
 	}
-
+	public Double getUtilizadoHb() {
+		return utilizadoHb;
+	}
+	public void setUtilizadoHb(Double utilizadoHb) {
+		this.utilizadoHb = utilizadoHb;
+	}	
+	
 }
