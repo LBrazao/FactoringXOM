@@ -47,4 +47,9 @@ public class Util {
 		return getFechaDentroDeProrroga;
 	}
 	
+	public static void setCambiarColorRegla(Regla regla, String desc, Integer codigo){			 
+		regla.descripcion = desc;
+		regla.codigo = codigo;	
+	}
+	
 }
