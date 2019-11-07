@@ -1,49 +1,49 @@
 package supervielle;
 
 public class Cedente {
-	protected CodigoDescripcion segmento;
-	protected CodigoDescripcion subSegmento;
-	protected CodigoDescripcion cartera;
-	protected CodigoDescripcion canal;
-	protected CodigoDescripcion actividad;
+	protected Integer segmento;
+	protected Integer subSegmento;
+	protected Integer cartera;
+	protected Integer canal;
+	protected Integer actividad;
 
-	public CodigoDescripcion getSubSegmento() {
-		return subSegmento;
-	}
-
-	public void setSubSegmento(CodigoDescripcion subSegmento) {
-		this.subSegmento = subSegmento;
-	}
-
-	public CodigoDescripcion getSegmento() {
+	public Integer getSegmento() {
 		return segmento;
 	}
 
-	public void setSegmento(CodigoDescripcion segmento) {
+	public void setSegmento(Integer segmento) {
 		this.segmento = segmento;
 	}
 
-	public CodigoDescripcion getCartera() {
+	public Integer getSubSegmento() {
+		return subSegmento;
+	}
+
+	public void setSubSegmento(Integer subSegmento) {
+		this.subSegmento = subSegmento;
+	}
+
+	public Integer getCartera() {
 		return cartera;
 	}
 
-	public void setCartera(CodigoDescripcion cartera) {
+	public void setCartera(Integer cartera) {
 		this.cartera = cartera;
 	}
 
-	public CodigoDescripcion getCanal() {
+	public Integer getCanal() {
 		return canal;
 	}
 
-	public void setCanal(CodigoDescripcion canal) {
+	public void setCanal(Integer canal) {
 		this.canal = canal;
 	}
 
-	public CodigoDescripcion getActividad() {
+	public Integer getActividad() {
 		return actividad;
 	}
 
-	public void setActividad(CodigoDescripcion actividad) {
+	public void setActividad(Integer actividad) {
 		this.actividad = actividad;
 	}
 
